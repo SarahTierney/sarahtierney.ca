@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  background-color: #000000;
+  background-color: #ffffff;
   /*font-family: 'Open Sans', sans-serif;
   font-family: 'Kreon', serif;*/
 }
@@ -19,9 +19,12 @@ html {
   box-sizing: inherit;
 }
 
-
 body {
-  margin: 0 ;
+  margin: 0;
+  background-image: url("../images/butterfly-crop.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
 }
 
 .banner {
@@ -39,6 +42,10 @@ main {
 
 .img-icon {
   border-radius: 5rem;
+}
+
+.name {
+  width: 500px;
 }
 
 h1 {
@@ -79,6 +86,7 @@ p {
   font-family: 'Kreon', serif;
   text-align: left;
   font-weight: 300;
+  width: 100%;
 }
 
 .p-1 {
@@ -117,6 +125,43 @@ a {
   text-decoration: underline;
   font-family: 'Open Sans', sans-serif;
 }
+
+.hvr-reveal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-reveal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-color: #2098d1;
+  border-style: solid;
+  border-width: 0;
+  -webkit-transition-property: border-width;
+  transition-property: border-width;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-reveal:hover:before, .hvr-reveal:focus:before, .hvr-reveal:active:before {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  border-width: 4px;
+}
+
 
 nav {
   background-color: #3d3356;
