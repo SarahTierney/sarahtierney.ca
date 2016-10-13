@@ -76,6 +76,14 @@ h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
+h4 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #fff4de;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
 .description {
   padding: 1em;
 }
@@ -83,6 +91,7 @@ h3 {
 .portfolio {
   background-color: #000000;
   margin: 0;
+  padding: 3em;
 }
 
 .sub-header {
@@ -174,6 +183,10 @@ nav a:hover {
   width: 100%;
 }
 
+.img-display-2 {
+  max-width: 800px;
+}
+
 .grid-black {
   background-color: #000000;
 }
@@ -195,14 +208,14 @@ nav a:hover {
 }
 
 .about {
-  background-color: #fff4de;
+  background-color: #b8bfd3;
 }
 
 .display-image {
   width: 75%;
 }
 
-/*@media only screen and (min-width: 10em) {
+@media only screen and (min-width: 10em) {
 
   h1 {
     font-size: 2rem;
@@ -225,32 +238,32 @@ nav a:hover {
 
 @media only screen and (min-width: 38em) {
 
-  h1 {
-    font-size: 3rem;
-    letter-spacing: -3px;
-    text-align: left;
+  h2 {
+    font-size: 1.5rem;
   }
 
-  h2 {
-    font-size: 1rem;
+  h3 {
+    font-size: 1.5rem;
   }
 
   p {
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
-
 
 }
 
 @media only screen and (min-width: 60em) {
 
   h1 {
-    font-size: 3rem;
-    letter-spacing: -3px;
+    font-size: 4rem;
   }
 
   h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
   }
 
   p {
