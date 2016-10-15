@@ -31,6 +31,7 @@ body {
 .banner {
   width: 100%;
   opacity: 0;
+  z-index: -1;
 }
 
 header {
@@ -83,12 +84,16 @@ h4 {
   font-family: 'Open Sans', sans-serif;
 }
 
+.social-media {
+  z-index: 1;
+}
 
 .description {
   padding: 1em;
 }
 
 .portfolio {
+  clear: all;
   background-color: #000000;
   margin: 0;
   padding: 3em;
@@ -229,10 +234,24 @@ nav a:hover {
   p {
     font-size: 0.75rem;
   }
+  .name {
+    width: 200px;
+  }
+  h4 {
+    font-size: 0.5rem;
+  }
 
 }
 
 @media only screen and (min-width: 24em) {
+
+  .name {
+    width: 300px;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
 
 }
 
@@ -246,8 +265,16 @@ nav a:hover {
     font-size: 1.5rem;
   }
 
+  h4 {
+    font-size: 1.5rem;
+  }
+
   p {
     font-size: 0.75rem;
+  }
+
+  .name {
+    width: 400px;
   }
 
 }
@@ -269,4 +296,9 @@ nav a:hover {
   p {
     font-size: 1rem;
   }
+
+  .name {
+    width: 500px;
+  }
+
 }
