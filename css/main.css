@@ -255,6 +255,11 @@ nav a:hover {
     padding: 0.5em;
   }
 
+  .sub-header {
+    background-color: #000000;
+  }
+
+
 }
 
 @media only screen and (min-width: 24em) {
@@ -269,11 +274,10 @@ nav a:hover {
 
   .portfolio {
     padding: 1em;
-    background-color: #000000;
   }
 
   .sub-header {
-    background-color: #000000;
+    background-color: #none;
   }
 
 
@@ -304,7 +308,6 @@ nav a:hover {
 
   .portfolio {
     padding: 2em;
-    background-color: none;
   }
 
 }
