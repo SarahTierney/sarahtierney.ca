@@ -272,6 +272,11 @@ nav a:hover {
     background-color: #000000;
   }
 
+  .sub-header {
+    background-color: #000000;
+  }
+
+
 
 }
 
@@ -299,6 +304,7 @@ nav a:hover {
 
   .portfolio {
     padding: 2em;
+    background-color: none;
   }
 
 }
