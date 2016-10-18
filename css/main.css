@@ -96,7 +96,7 @@ h4 {
   clear: all;
   background-color: #000000;
   margin: 0;
-  padding: 3em;
+  padding: 1em;
   width: 100%;
   letter-spacing: normal;
 }
@@ -233,14 +233,24 @@ nav a:hover {
     font-size: 0.75rem;
   }
 
+  h3 {
+    font-size: 1em;
+  }
+
   p {
     font-size: 0.75rem;
   }
+
   .name {
     width: 200px;
   }
+
   h4 {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  .portfolio {
+    padding: 0.5em;
   }
 
 }
@@ -253,6 +263,10 @@ nav a:hover {
 
   h4 {
     font-size: 1rem;
+  }
+
+  .portfolio {
+    padding: 1em;
   }
 
 }
@@ -277,6 +291,10 @@ nav a:hover {
 
   .name {
     width: 400px;
+  }
+
+  .portfolio {
+    padding: 2em;
   }
 
 }
