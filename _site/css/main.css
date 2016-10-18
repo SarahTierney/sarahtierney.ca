@@ -255,7 +255,7 @@ nav a:hover {
     padding: 0.5em;
   }
 
-  .sub-header {
+  .dark {
     background-color: #000000;
   }
 
@@ -269,14 +269,14 @@ nav a:hover {
   }
 
   h4 {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   .portfolio {
     padding: 1em;
   }
 
-  .sub-header {
+  .dark {
     background-color: #none;
   }
 
