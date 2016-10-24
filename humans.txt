@@ -1,0 +1,18 @@
+# humanstxt.org
+
+#TEAM
+
+Designer & Developer:Sarah Tierney<tierney.s@live.com>
+Site: http://sarahtierney.ca
+Location: Ottawa, Canada
+
+---
+
+ #THANKS
+
+ # TECHNOLOGY
+
+ ##Software
+
+ -Atom
+ _Git + Github
