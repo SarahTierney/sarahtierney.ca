@@ -14,5 +14,5 @@ Location: Ottawa, Canada
 
  ##Software
 
- -Atom
- _Git + Github
+ - Atom
+ _ Git + Github
