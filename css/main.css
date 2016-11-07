@@ -53,11 +53,11 @@ main {
 
 h1 {
   font-size: 4rem;
-  color: #000000;
+  color: #ffffff;
   letter-spacing: -3px;
   padding: 0.25em 0 0em 0.5em;
   margin: 0;
-  font-weight: 300;
+  font-weight: 400;
   font-family: 'Open Sans', sans-serif;
 }
 
