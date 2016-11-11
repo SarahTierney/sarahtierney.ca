@@ -84,6 +84,14 @@ h4 {
   font-family: 'Open Sans', sans-serif;
 }
 
+h5 {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
 .social-media {
   z-index: 1;
 }
@@ -123,10 +131,14 @@ p {
 }
 
 .p-1 {
+  color: #000000;
+  text-decoration: none;
   padding: 5em 7em 1em 7em;
 }
 
 .p-2 {
+  color: #000000;
+  text-decoration: none;
   padding: 0 7em 5em 7em;
 }
 
@@ -217,7 +229,7 @@ nav a:hover {
 }
 
 .about {
-  background-color: #b8bfd3;
+  background-color: #ffffff;
 }
 
 .display-image {
