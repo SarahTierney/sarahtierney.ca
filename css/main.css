@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  background-color: #ffffff;
+  background-color: #000000;
   /*font-family: 'Open Sans', sans-serif;
   font-family: 'Kreon', serif;*/
 }
@@ -119,6 +119,7 @@ p {
   text-align: left;
   font-weight: 300;
   width: 100%;
+  padding: 1em;
 }
 
 .p-1 {
@@ -212,6 +213,7 @@ nav a:hover {
 
 .shadow {
   box-shadow: inset 3px 4px 5px #000000;
+  z-index: 100;
 }
 
 .about {
