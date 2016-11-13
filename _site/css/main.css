@@ -158,6 +158,12 @@ div.content {
   align-items: center;
 }
 
+div.content-2 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
 
 ol {
   margin: 0;
@@ -269,10 +275,13 @@ nav a:hover {
     padding: 0.5em;
   }
 
-/*  .dark {
+  .dark {
     background-color: #000000;
-  }*/
+  }
 
+  a {
+    font-size: 0.75rem;
+  }
 
 }
 
@@ -291,9 +300,12 @@ nav a:hover {
   }
 
   .dark {
-    background-color: none;
+    background-color: #000000;
   }
 
+  a {
+    font-size: 0.75rem;
+  }
 
 
 }
@@ -324,6 +336,16 @@ nav a:hover {
     padding: 2em;
   }
 
+  .dark {
+    background-color: #231f20;
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 81%,rgba(0,0,0,0) 0%);}
+  }
+
+  a {
+    font-size: 1rem;
+  }
+
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -346,6 +368,15 @@ nav a:hover {
 
   .name {
     width: 500px;
+  }
+
+  .dark {
+    background-color: #231f20;
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 81%,rgba(0,0,0,0) 0%);}
+  }
+
+  a {
+    font-size: 1rem;
   }
 
 }
