@@ -130,6 +130,21 @@ h5 {
   position: relative;
 }
 
+.box-hover {
+  box-shadow: inset 3px 4px 5px #000000;
+  z-index: 1;
+  position: absolute;
+  opacity: 0;
+  padding: 0;
+  width: 33.3333%;
+}
+
+.box-hover:hover {
+  opacity: 1;
+  width: 33.3333%;
+}
+
+
 p {
   font-family: 'Kreon', serif;
   text-align: left;
@@ -239,11 +254,6 @@ nav a:hover {
 
 .float-right {
   float: right;
-}
-
-.shadow {
-  box-shadow: inset 3px 4px 5px #000000;
-  z-index: 100;
 }
 
 .about {
