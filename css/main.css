@@ -131,8 +131,8 @@ h5 {
 }
 
 .cards {
-  overflow: hidden;
   position: relative;
+  width: 100%;
 }
 
 .box-hover {
@@ -142,14 +142,11 @@ h5 {
   opacity: 0;
   padding: 0;
   width: 33.3333%;
-  max-width: 100%;
 }
 
 .box-hover:hover {
   opacity: 1;
-  width: 33.3333%;
 }
-
 
 p {
   font-family: 'Kreon', serif;
