@@ -55,6 +55,10 @@ main {
   width: 1000px;
 }
 
+.a404 {
+  font-weight: 800;
+}
+
 h1 {
   font-size: 4rem;
   color: #ffffff;
