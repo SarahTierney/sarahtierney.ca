@@ -425,6 +425,10 @@ body {
   background-attachment: fixed;
 }
 
+.aflie {
+  width: 10%;
+}
+
 .banner {
   width: 100%;
   opacity: 0;
