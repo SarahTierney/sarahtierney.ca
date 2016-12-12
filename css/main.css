@@ -274,7 +274,7 @@ nav a:hover {
 @media only screen and (min-width: 10em) {
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     letter-spacing: -1px;
   }
 
@@ -291,13 +291,21 @@ nav a:hover {
   }
 
   p {
-    font-size: 1rem;
+    font-size: 1.5rem;
+  }
 
   .name {
     padding: 2em;
     width: 300px;
   }
 
+  .p-1 {
+    padding: 0.25em;
+  }
+
+  .p-2 {
+    padding: 0.25em;
+  }
 
   .portfolio {
     padding: 0.5em;
