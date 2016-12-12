@@ -274,7 +274,7 @@ nav a:hover {
 @media only screen and (min-width: 10em) {
 
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     letter-spacing: -1px;
   }
 
@@ -291,8 +291,7 @@ nav a:hover {
   }
 
   p {
-    font-size: 1.5rem;
-  }
+    font-size: 1rem;
 
   .name {
     padding: 2em;
