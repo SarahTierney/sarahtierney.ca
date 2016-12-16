@@ -381,6 +381,13 @@ nav a:hover {
     font-size: 1rem;
   }
 
+  .p-1 {
+    padding: 3em;
+  }
+
+  .p-2 {
+    padding: 3em;
+  }
 
 }
 
