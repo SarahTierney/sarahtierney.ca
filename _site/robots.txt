@@ -1,2 +1,2 @@
-User-agent:*
-Disallow: /img
+User-agent: Googlebot-Image
+Disallow: /images/dogs.png 
